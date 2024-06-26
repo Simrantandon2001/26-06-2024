@@ -1,0 +1,216 @@
+
+    
+
+    .slider-container {
+		position: relative;
+		overflow: hidden;
+		background-color: #fff;
+		width: 879px;
+		  height: 437px;
+		  border-radius: 60px;
+		margin: auto;
+		 /* Set your desired max width */
+	  }
+  
+	  .slide {
+		display: block;
+		margin-right: 56px;
+		margin-left: 56px;
+		margin-top: 56px;
+		
+	  }
+  
+	  .slide img {
+		width: 56px;
+		height: 56px;
+		/* Ensure the image fills the container */
+		border-radius: 50%; /* Make the image round (for avatar) */
+	  }
+  
+	  .text {
+		padding: 20px;
+		margin-bottom: 47px;
+	  }
+	  .text1 {
+		padding: 20px;
+		margin-bottom: 4px;
+	  }
+  
+	  .arrow {
+		width: 50px;
+		height: 36px;
+		
+		border-radius: 50%;
+		display: flex;
+	  justify-content: center;
+	  align-items: center;
+		margin: 5px 5px 5px 5px;
+		cursor: pointer;
+		color: #053F5C; /* Set your desired arrow color */
+	  }
+  
+	  .arrow.left {
+		margin-left: 200px;
+	   
+		border-radius: 50%;
+		width:46px;
+		height: 56px;
+	 
+	  }
+  
+	  .arrow.right {
+		right: 0px;
+		
+		border-radius: 50%;
+		width:46px;
+		height: 56px;
+	  }
+  .slider-text-image{
+	 
+  
+  font-family: inherit;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 361px;
+  }
+	  
+  
+	 
+	  .text-style{
+		  color: #292611;
+  
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: -20px;
+  text-align: center;
+	  }
+	  .aa{
+		display: flex;
+		margin-left: 46px;
+		margin-right: 55px;
+		align-content: center;
+		align-items: center;
+		margin-top: -30px;
+	  }
+  
+	  .dot.active {
+		background-color:#292611; /* Set your desired active dot color */
+	  }
+	  #abc1{
+		  margin-right: 20px;
+	  }
+	  #auth{
+		  color:#292611;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+	  }
+	  @media only screen and (max-width: 767px) {
+		  .slider-container {
+			  width: 300px;
+		  height: 450px;
+		  }
+		  #abc1{
+			margin-right: 0px;
+		}
+		.slider-text-image{
+			color: #1C1C1C;
+		
+		font-family: Space Grotesk;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 12px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-top: 2px;
+		width: 124px;
+		}
+		  .text-style{
+		  color: #292611;
+  
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+	  }
+	  .slide {
+		display: block;
+		margin-right: 27px;
+		margin-left: 27px;
+		margin-top: 27px;
+		
+	  }
+	  .text {
+		padding: 0px;
+		margin-bottom: 0px;
+		margin-top: 90px;
+	  }
+	  .text1 {
+		padding: 0px;
+		margin-bottom: 0px;
+	  }
+	  .arrow.left {
+		margin-left: 0px;
+	  }
+	  .slider-text-image{
+	  color: #1C1C1C;
+  
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  width: 124px;
+  }
+  .slide img {
+		width: 36px;
+		height: 36px;
+		/* Ensure the image fills the container */
+		border-radius: 50%; /* Make the image round (for avatar) */
+	  }
+	  .aa{
+		display: flex;
+		margin-left: 0px;
+		margin-right: 55px;
+		align-content: center;
+		align-items: center;
+		margin-top: -30px;
+		align-content: center;
+		align-items: center;
+		margin-top: 52px;
+		margin-bottom: 16px;
+	  }
+	  #aa1{
+		margin-top: 51px;
+		margin-bottom: 16px;
+	  }
+	   #aa2{
+		margin-top: 10px;
+		margin-bottom: 16px;
+	  }
+	  }
+	  
+  /*    @media only screen and (max-width: 1024px) {*/
+  /*  .slider-container {*/
+  /*       position: relative;*/
+  /*      overflow: hidden;*/
+  /*      background-color: #fff;*/
+  /*      width:683px;*/
+  /*        height: 386px;*/
+  /*        border-radius: 24px;*/
+  /*      margin: auto;*/
+	  /* Adjust as needed */
+	  /* Any other tablet-specific styles */
+  /*  }*/
+  /*}*/
